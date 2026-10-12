@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <conio.h>
+
+void main()
+{
+    int angle;
+
+    clrscr();
+
+    for(angle = 0; angle <= 180; angle = angle + 30)
+    {
+        printf("Servo Motor Angle = %d degrees\n", angle);
+    }
+
+    getch();
+}
