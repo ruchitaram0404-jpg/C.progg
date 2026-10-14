@@ -1,0 +1,16 @@
+
+#include <stdio.h>
+#include <conio.h>
+
+void main()
+{
+    int speed;
+    clrscr();
+
+    for(speed = 100; speed <= 500; speed = speed + 100)
+    {
+        printf("DC Motor Speed = %d RPM\n", speed);
+    }
+
+    getch();
+}
